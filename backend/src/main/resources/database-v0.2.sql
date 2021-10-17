@@ -339,22 +339,22 @@ CREATE TABLE `t_user_event_log`  (
 -- ----------------------------
 -- Records of t_user_event_log
 -- ----------------------------
-INSERT INTO `t_user_event_log` VALUES (1, 2, 'admin', '管理员', 'admin 登录了学之思考试系统', '2020-12-23 18:12:21');
-INSERT INTO `t_user_event_log` VALUES (2, 1, 'student', '学生', 'student 登录了学之思考试系统', '2020-12-24 11:29:25');
-INSERT INTO `t_user_event_log` VALUES (3, 2, 'admin', '管理员', 'admin 登录了学之思考试系统', '2020-12-24 11:29:51');
-INSERT INTO `t_user_event_log` VALUES (4, 1, 'student', '学生', 'student 登录了学之思考试系统', '2020-12-24 11:30:38');
+INSERT INTO `t_user_event_log` VALUES (1, 2, 'admin', '管理员', 'admin 登录了思蒙在线考试系统', '2020-12-23 18:12:21');
+INSERT INTO `t_user_event_log` VALUES (2, 1, 'student', '学生', 'student 登录了思蒙在线考试系统', '2020-12-24 11:29:25');
+INSERT INTO `t_user_event_log` VALUES (3, 2, 'admin', '管理员', 'admin 登录了思蒙在线考试系统', '2020-12-24 11:29:51');
+INSERT INTO `t_user_event_log` VALUES (4, 1, 'student', '学生', 'student 登录了思蒙在线考试系统', '2020-12-24 11:30:38');
 INSERT INTO `t_user_event_log` VALUES (5, 1, 'student', '学生', 'student 更新了个人资料', '2020-12-24 11:37:45');
 INSERT INTO `t_user_event_log` VALUES (6, 1, 'student', '学生', 'student 提交试卷：试卷名称 得分：0 耗时：4 秒', '2020-12-24 11:38:00');
 INSERT INTO `t_user_event_log` VALUES (7, 1, 'student', '学生', 'student 批改试卷：试卷名称 得分：0', '2020-12-24 11:38:47');
-INSERT INTO `t_user_event_log` VALUES (8, 1, 'student', '学生', 'student 登录了学之思考试系统', '2020-12-24 13:49:06');
+INSERT INTO `t_user_event_log` VALUES (8, 1, 'student', '学生', 'student 登录了思蒙在线考试系统', '2020-12-24 13:49:06');
 INSERT INTO `t_user_event_log` VALUES (9, 1, 'student', '学生', 'student 提交试卷：试卷名称 得分：0 耗时：30分 0秒', '2020-12-24 14:30:07');
 INSERT INTO `t_user_event_log` VALUES (10, 1, 'student', '学生', 'student 提交试卷：试卷名称 得分：0 耗时：30分 0秒', '2020-12-24 14:31:22');
-INSERT INTO `t_user_event_log` VALUES (11, 2, 'admin', '管理员', 'admin 登出了学之思考试系统', '2020-12-24 14:50:56');
-INSERT INTO `t_user_event_log` VALUES (12, 2, 'admin', '管理员', 'admin 登录了学之思考试系统', '2020-12-24 14:51:01');
-INSERT INTO `t_user_event_log` VALUES (13, 2, 'admin', '管理员', 'admin 登录了学之思考试系统', '2020-12-24 14:51:37');
-INSERT INTO `t_user_event_log` VALUES (14, 2, 'admin', '管理员', 'admin 登录了学之思考试系统', '2020-12-24 15:56:00');
-INSERT INTO `t_user_event_log` VALUES (15, 2, 'admin', '管理员', 'admin 登录了学之思考试系统', '2020-12-24 15:56:05');
-INSERT INTO `t_user_event_log` VALUES (16, 2, 'admin', '管理员', 'admin 登录了学之思考试系统', '2020-12-24 16:51:24');
+INSERT INTO `t_user_event_log` VALUES (11, 2, 'admin', '管理员', 'admin 登出了思蒙在线考试系统', '2020-12-24 14:50:56');
+INSERT INTO `t_user_event_log` VALUES (12, 2, 'admin', '管理员', 'admin 登录了思蒙在线考试系统', '2020-12-24 14:51:01');
+INSERT INTO `t_user_event_log` VALUES (13, 2, 'admin', '管理员', 'admin 登录了思蒙在线考试系统', '2020-12-24 14:51:37');
+INSERT INTO `t_user_event_log` VALUES (14, 2, 'admin', '管理员', 'admin 登录了思蒙在线考试系统', '2020-12-24 15:56:00');
+INSERT INTO `t_user_event_log` VALUES (15, 2, 'admin', '管理员', 'admin 登录了思蒙在线考试系统', '2020-12-24 15:56:05');
+INSERT INTO `t_user_event_log` VALUES (16, 2, 'admin', '管理员', 'admin 登录了思蒙在线考试系统', '2020-12-24 16:51:24');
 
 -- ----------------------------
 -- Table structure for t_user_token
