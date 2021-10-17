@@ -1,13 +1,54 @@
+<p></p>
+<p></p>
 
+<p align="center">
+<a href="https://www.mindskip.net" target="_blank">
+ <img src="docs/images/logo/1.png" height="80"/>
+<a/>
+</p>
 
-# 在线考试系统
+<div align="center">
+
+[![Gitee star](https://gitee.com/mindskip/xzs-mysql/badge/star.svg?theme=gitee)](https://gitee.com/mindskip/xzs-mysql)
+[![Gitee fork](https://gitee.com/mindskip/xzs-mysql/badge/fork.svg?theme=gitee)](https://gitee.com/mindskip/xzs-mysql)
+[![Github stars](https://img.shields.io/github/stars/mindskip/xzs-mysql?logo=github)](https://github.com/mindskip/xzs-mysql)
+[![Github forks](https://img.shields.io/github/forks/mindskip/xzs-mysql?logo=github)](https://github.com/mindskip/xzs-mysql)
+[![Github license](https://img.shields.io/badge/license-AGPL-yellow)](https://gitee.com/mindskip/xzs-mysql/blob/master/LICENSE)
+
+</div>
+
+# 学之思开源考试系统 - Mysql版
 
 ## 项目介绍
 
-本考试系统是一款 java + vue 的前后端分离的考试系统。主要优点是开发、部署简单快捷、界面设计友好、代码结构清晰。支持web端和微信小程序，能覆盖到pc机和手机等设备。
+学之思开源考试系统是一款 java + vue 的前后端分离的考试系统。主要优点是开发、部署简单快捷、界面设计友好、代码结构清晰。支持web端和微信小程序，能覆盖到pc机和手机等设备。
 支持多种部署方式：集成部署、前后端分离部署、docker部署。
 
+### 演示地址
 
+* 官网：[https://www.mindskip.net](https://www.mindskip.net)
+* 学之思开源考试系统：[https://www.mindskip.net/xzs.html](https://www.mindskip.net/xzs.html)
+* 维多多培训考试系统：[https://www.mindskip.net/wdd.html](https://www.mindskip.net/wdd.html)
+* 思多多智能考试系统：[https://www.mindskip.net/sdd.html](https://www.mindskip.net/sdd.html)
+
+### 学之思交流群(加群获取数据库脚本)
+
+* QQ交流群⑬：`629266246`
+* 商务QQ：`2732007709`
+* 商务微信：`mind_skip`
+* 商务邮箱：`mindskip@qq.com`
+
+### 学之思仓库版本地址
+
+* gitee - postgresql ：[https://gitee.com/mindskip/uexam](https://gitee.com/mindskip/uexam)
+* gitee - mysql ：[https://gitee.com/mindskip/xzs-mysql](https://gitee.com/mindskip/xzs-mysql)
+* github - postgresql ：[https://github.com/mindskip/xzs](https://github.com/mindskip/xzs)
+* github - mysql ：[https://github.com/mindskip/xzs-mysql](https://github.com/mindskip/xzs-mysql)
+
+### 开发部署教程
+
+* 文档教程：[https://www.mindskip.net:999](https://www.mindskip.net:999)
+* 视频教程：[https://ke.qq.com/course/3614230](https://ke.qq.com/course/3614230)
 
 ### 学生系统功能
 
@@ -65,3 +106,37 @@
 | 个人动态  | 显示用户最近的个人动态  |  
 | 消息中心  | 用于接收管理员发送的消息  |  
 
+### 系统展示
+
+* 学生考试系统
+<table>
+    <tr>
+        <td><img src="docs/images/student/1.png"/></td>
+        <td><img src="docs/images/student/2.png"/></td>
+    </tr>
+</table>
+
+*  小程序考试系统
+<table>
+    <tr>
+        <td><img src="docs/images/wx/student/1.png"/></td>
+        <td><img src="docs/images/wx/student/2.png"/></td>
+        <td><img src="docs/images/wx/student/3.png"/></td>
+        <td><img src="docs/images/wx/student/4.png"/></td>
+    </tr>
+    <tr>
+        <td><img src="docs/images/wx/student/5.png"/></td>
+        <td><img src="docs/images/wx/student/8.png"/></td>
+        <td><img src="docs/images/wx/student/6.png"/></td>
+        <td><img src="docs/images/wx/student/7.png"/></td>
+    </tr>
+</table>
+
+* 后台管理系统
+
+<table>
+    <tr>
+        <td><img src="docs/images/admin/1.png"/></td>
+        <td><img src="docs/images/admin/2.png"/></td>
+    </tr>
+</table>
