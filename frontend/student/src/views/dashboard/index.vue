@@ -1,6 +1,6 @@
 <template>
   <div style="margin-top: 10px">
-    <el-row>
+    <el-row v-if="false">
       <el-carousel :interval="5000" arrow="always" type="card">
         <el-carousel-item >
           <img src="@/assets/carousel/1.png" class="carousel-img">
