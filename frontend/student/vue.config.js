@@ -7,7 +7,7 @@ function resolve (dir) {
 
 module.exports = {
   publicPath: './',
-  outputDir: 'student',
+  // outputDir: 'student',
   assetsDir: 'static',
   lintOnSave: true,
   productionSourceMap: false,
