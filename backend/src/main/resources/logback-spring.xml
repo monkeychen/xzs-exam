@@ -39,27 +39,9 @@
     </springProfile>
 
 
-    <springProfile name="test">
-        <root level="INFO">
-            <appender-ref ref="FILE"/>
-        </root>
-        <logger name="repository" level="DEBUG" additivity="false">
-            <appender-ref ref="FILE"/>
-        </logger>
-    </springProfile>
-
-    <springProfile name="pre">
-        <root level="INFO">
-            <appender-ref ref="FILE"/>
-        </root>
-        <logger name="repository" level="DEBUG" additivity="false">
-            <appender-ref ref="FILE"/>
-        </logger>
-    </springProfile>
-
-
     <springProfile name="prod">
         <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
             <appender-ref ref="FILE"/>
         </root>
     </springProfile>
