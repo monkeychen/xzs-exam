@@ -16,7 +16,7 @@
         </el-carousel-item>
       </el-carousel>
     </el-row>
-    <el-row v-if="false" class="app-item-contain">
+    <el-row v-if="true" class="app-item-contain">
       <h3 class="index-title-h3" style="border-left: solid 10px #3651d4;">任务中心</h3>
       <div style="padding-left: 15px">
         <el-collapse  v-loading="taskLoading"  accordion v-if="taskList.length!==0">
