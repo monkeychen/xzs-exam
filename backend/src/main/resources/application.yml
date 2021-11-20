@@ -26,6 +26,7 @@ system:
     - /api/wx/**
     - /api/admin/upload/configAndUpload
     - /api/admin/upload/auth
+    - /api/admin/upload/file
     - /api/student/user/register
   pwdKey:
     publicKey: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClwwxhJKwStDnu7c0yCRkwTW2VKuLWwyVtFC6Zx9bYdF1qwqSP26CkDwaF6GHayIvv9b8BHlAaQH4SLIPzir062yzNukqspmthUw4gPJhbx1AQrWRoQJSv3/1Sk+tWyJRHXSiCZJZ3216LDhtx42LQ0HItDP8U9BLtsxA+5LEZzQIDAQAB

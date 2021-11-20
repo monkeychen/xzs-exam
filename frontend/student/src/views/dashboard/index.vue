@@ -16,7 +16,7 @@
         </el-carousel-item>
       </el-carousel>
     </el-row>
-    <el-row class="app-item-contain">
+    <el-row v-if="false" class="app-item-contain">
       <h3 class="index-title-h3" style="border-left: solid 10px #3651d4;">任务中心</h3>
       <div style="padding-left: 15px">
         <el-collapse  v-loading="taskLoading"  accordion v-if="taskList.length!==0">
@@ -49,7 +49,7 @@
       </div>
     </el-row>
     <el-row class="app-item-contain">
-      <h3 class="index-title-h3">固定试卷</h3>
+      <h3 v-if="true" class="index-title-h3">请选择试卷</h3>
       <div style="padding-left: 15px">
         <el-col :span="4" v-for="(item, index) in fixedPaper" :key="index" :offset="index > 0 ? 1 : 0">
           <el-card :body-style="{ padding: '0px' }" v-loading="loading">
@@ -58,7 +58,7 @@
               <span>{{item.name}}</span>
               <div class="bottom clearfix">
                 <router-link target="_blank" :to="{path:'/do',query:{id:item.id}}">
-                  <el-button type="text" class="button">开始做题</el-button>
+                  <el-button type="text" class="button">开始考试</el-button>
                 </router-link>
               </div>
             </div>
@@ -66,7 +66,7 @@
         </el-col>
       </div>
     </el-row>
-    <el-row class="app-item-contain">
+    <el-row v-if="false" class="app-item-contain">
       <h3 class="index-title-h3" style="border-left: solid 10px rgb(220, 208, 65);">时段试卷</h3>
       <div style="padding-left: 15px">
         <el-col :span="4" v-for="(item, index) in timeLimitPaper" :key="index" :offset="index > 0 ? 1 : 0">

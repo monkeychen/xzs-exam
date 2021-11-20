@@ -2,7 +2,7 @@
   <div class="app-container">
 
     <el-form :model="form" ref="form" label-width="100px" v-loading="formLoading" :rules="rules">
-      <el-form-item label="用户名："  prop="userName" required>
+      <el-form-item label="学号："  prop="userName" required>
         <el-input v-model="form.userName"></el-input>
       </el-form-item>
       <el-form-item label="密码："  required>

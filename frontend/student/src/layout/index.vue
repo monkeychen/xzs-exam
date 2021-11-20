@@ -18,14 +18,15 @@
           </el-dropdown-menu>
         </el-dropdown>
       </div>
-      <el-menu class="el-menu-title" mode="horizontal" :default-active="defaultUrl" :router="true">
+      <el-menu v-if="false" class="el-menu-title" mode="horizontal" :default-active="defaultUrl" :router="true">
         <el-menu-item index="/index">首页</el-menu-item>
         <el-menu-item index="/paper/index">试卷中心</el-menu-item>
         <el-menu-item index="/record/index">考试记录</el-menu-item>
         <el-menu-item index="/question/index">错题本</el-menu-item>
       </el-menu>
-      <div>
-        <a href="/"><img src="@/assets/logo2.png" height="56"/></a>
+      <div style="margin-top: 10px; padding-left: 10px;">
+        <a href="/"><img src="@/assets/logo2.png" height="30"/></a>
+        <div style="position: absolute; top: 10px; left: 50px; font-size: 25px; color: #37d1ec;"><b>金山学院在线考试系统</b></div>
       </div>
     </el-header>
     <el-main class="student-main">

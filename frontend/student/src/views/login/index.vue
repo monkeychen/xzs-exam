@@ -7,13 +7,13 @@
       <div class="lowin-box lowin-login">
         <div class="lowin-box-inner">
           <el-form ref="loginForm" :model="loginForm" :rules="loginRules">
-            <p>在线考试系统</p>
+            <p>金山学院在线考试系统</p>
             <div class="lowin-group">
               <label>用户名 </label>
               <el-input ref="userName" v-model="loginForm.userName" class="lowin-input" placeholder="用户名" name="userName" type="text" tabindex="1" auto-complete="on"/>
             </div>
             <div class="lowin-group password-group">
-              <label>密码 <a href="#" class="forgot-link">忘记密码?</a></label>
+              <label>密码 <a v-if="false" href="#" class="forgot-link">忘记密码?</a></label>
               <el-input  class="lowin-input" :key="passwordType" ref="password" v-model="loginForm.password" :type="passwordType"
                 placeholder="密码" name="password" tabindex="2" auto-complete="on" @keyup.native="checkCapslock" @blur="capsTooltip = false" @keyup.enter.native="handleLogin"/>
             </div>
